@@ -117,31 +117,31 @@ INSERT INTO RESERVATION VALUES (105, 5, 'FL005', TO_DATE('2025-05-24', 'YYYY-MM-
 ## Phase VI: Database Interaction & Transactions
 
 - **SQL Queries**
--Update Record (ex: Passenger)
+- Update Record (ex: Passenger)
 ```sql
 UPDATE PASSENGER
 SET phoneNumber = '0788000011'
 WHERE passengerID = 2;
 ```
 
--Delete Record (ex: Reservation)
+- Delete Record (ex: Reservation)
 ```sql
 DELETE FROM RESERVATION
 WHERE reservationID = 101;
 ```
 
--Alter Record (ex: Passenger)
+- Alter Record (ex: Passenger)
 ```sql
 ALTER TABLE PASSENGER
 ADD email VARCHAR2(100);
 ```
 
-Drop Record (ex: Flight).
+- Drop Record (ex: Flight).
 ```sql
 DROP TABLE FLIGHT;
 ```
 
--Displaying Records using Joins
+- Displaying Records using Joins
 ```sql
 SELECT 
   r.reservationID,
