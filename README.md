@@ -20,7 +20,7 @@ In many airline environments, manual or spreadsheet-based reservation systems ca
 
 **UML Diagram**
 
-> _📸 Screenshot: Mermaid business process flow_
+![UML Diagram](/Screenshots/BPMN%20Diagram.png)
 
 The diagram above illustrates the end-to-end booking flow in an Airline Reservation System. Passengers initiate flight search, provide their details, and confirm a booking. The system validates seat availability, assigns seats, and confirms the reservation. Airline staff manage schedules and seat assignments, while administrators oversee security and manage system-level operations. The use of a structured workflow improves accuracy, minimizes delays, and enhances user experience, aligning with MIS principles of information flow and decision support.
 
