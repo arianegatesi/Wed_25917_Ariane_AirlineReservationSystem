@@ -26,7 +26,7 @@ The diagram above illustrates the end-to-end booking flow in an Airline Reservat
 
 **Swimlane Diagram**
 
-> _📸 Screenshot: Mermaid business process flow_
+![Swimlane Diagram](/Screenshots/Swimlane%20Diagram.png)
 
 This swimlane diagram illustrates the flight booking process across five departments. It tracks the journey from customer initiation through sales processing, system validation, staff approvals for special requests, and fulfillment completion. Decision points determine whether bookings follow standard paths or require special handling, ultimately ending in one of three possible status outcomes.
 
@@ -39,14 +39,14 @@ This swimlane diagram illustrates the flight booking process across five departm
   - 1:N between PASSENGER and RESERVATION
   - 1:N between FLIGHT and RESERVATION
 
-> _📸 Screenshot: ER diagram using Mermaid or draw.io_
+![ER Model](/Screenshots/ER%20Diagram.png)
 
 ---
 
 ## Phase IV: Database Creation
 
 **Pluggable Database**
-> _📸 Screenshot: SQL Developer or OEM table creation, DB name confirmation_
+![PDB](/Screenshots/PDB%20Created.png)
 
 **Oracle Enterprise Manager**
 > _📸 Screenshot: SQL Developer or OEM table creation, DB name confirmation_
@@ -110,8 +110,9 @@ INSERT INTO RESERVATION VALUES (104, 4, 'FL004', TO_DATE('2025-05-23', 'YYYY-MM-
 INSERT INTO RESERVATION VALUES (105, 5, 'FL005', TO_DATE('2025-05-24', 'YYYY-MM-DD'), '3E');
 ```
 
-> _📸 Screenshot: Table data after insertion_
-
+![Passenger Info](/Screenshots/Passenger%20info.png)
+![Reservation Info](/Screenshots/Reservation%20info.png)
+![Flight Info](/Screenshots/Flight%20info.png)
 ---
 
 ## Phase VI: Database Interaction & Transactions
@@ -348,7 +349,11 @@ END ReservationPkg;
 /
 ```
 
-> _📸 Screenshot: Procedure/function/package compilation and output_
+![Procedure](/Screenshots/Procedure%201.png)
+![Procedure](/Screenshots/Procedure%202.png)
+![Function](/Screenshots/Function.png)
+![Cursor](/Screenshots/Cursor.png)
+![Package](/Screenshots/Package.png)
 
 ---
 
@@ -409,6 +414,6 @@ END;
 /
 ```
 
-> _📸 Screenshot: Trigger creation + `AUDIT_LOG` table_
+![Audit Triggers](/Screenshots/Audit%20tested.png)
 
 ---
