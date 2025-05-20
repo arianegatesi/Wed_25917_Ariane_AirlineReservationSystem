@@ -136,7 +136,7 @@ ALTER TABLE PASSENGER
 ADD email VARCHAR2(100);
 ```
 
-- Drop Record (ex: Flight).
+Drop Record (ex: Flight).
 ```sql
 DROP TABLE FLIGHT;
 ```
