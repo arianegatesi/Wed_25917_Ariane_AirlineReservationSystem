@@ -111,8 +111,11 @@ INSERT INTO RESERVATION VALUES (105, 5, 'FL005', TO_DATE('2025-05-24', 'YYYY-MM-
 ```
 
 ![Passenger Info](/Screenshots/Passenger%20info.png)
+
 ![Reservation Info](/Screenshots/Reservation%20info.png)
+
 ![Flight Info](/Screenshots/Flight%20info.png)
+
 ---
 
 ## Phase VI: Database Interaction & Transactions
@@ -350,9 +353,13 @@ END ReservationPkg;
 ```
 
 ![Procedure](/Screenshots/Procedure%201.png)
+
 ![Procedure](/Screenshots/Procedure%202.png)
+
 ![Function](/Screenshots/Function.png)
+
 ![Cursor](/Screenshots/Cursor.png)
+
 ![Package](/Screenshots/Package.png)
 
 ---
