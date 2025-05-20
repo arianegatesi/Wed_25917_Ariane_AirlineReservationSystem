@@ -116,7 +116,7 @@ INSERT INTO RESERVATION VALUES (105, 5, 'FL005', TO_DATE('2025-05-24', 'YYYY-MM-
 
 ## Phase VI: Database Interaction & Transactions
 
-- **SQL Queries**
+- **1. SQL Queries**
 - Update Record (ex: Passenger)
 ```sql
 UPDATE PASSENGER
@@ -156,7 +156,7 @@ JOIN PASSENGER p ON r.passengerID = p.passengerID
 JOIN FLIGHT f ON r.flightNumber = f.flightNumber;
 ```
 
-- **Procedures**: `MakeReservation`, `GetPassengerInfo`
+- **2. Procedures**: `MakeReservation`, `GetPassengerInfo`
 ```sql
 --MAKE A RESERVATION
 CREATE OR REPLACE PROCEDURE MakeReservation (
@@ -211,7 +211,7 @@ END;
 /
 ```
 
-- **Functions**: `CountReservations`
+- **3. Functions**: `CountReservations`
 ```sql
 CREATE OR REPLACE FUNCTION GetReservationCount (
   p_passengerID IN NUMBER
@@ -226,7 +226,7 @@ BEGIN
   RETURN v_count;
 END;
 ```
-- **Cursors** with Exception Handling
+- **4. Cursors** with Exception Handling
 ```sql
 --LISTING ALL RESERVATIONS
 DECLARE
@@ -252,7 +252,7 @@ EXCEPTION
 END;
 /
 ```
-- **Package**: `ReservationPkg`
+- **5. Package**: `ReservationPkg`
 ```sql
 --PACKAGE SPEC 
 CREATE OR REPLACE PACKAGE ReservationPkg AS
