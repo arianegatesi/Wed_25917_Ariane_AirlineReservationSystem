@@ -7,7 +7,7 @@ A fully functional Airline Reservation System implemented in Oracle PL/SQL as pa
 In many airline environments, manual or spreadsheet-based reservation systems cause delays, data inconsistency, and security risks. This capstone builds a robust PL/SQL-driven solution to automate and secure the booking, flight management, and passenger data operations.
 
 ## Project Goals
-
+ 
 - Build an automated airline reservation system using Oracle PL/SQL
 - Ensure data consistency and integrity through constraints and procedural logic
 - Automate actions via triggers, procedures, functions, and packages
