@@ -49,7 +49,7 @@ This swimlane diagram illustrates the flight booking process across five departm
 ![PDB](/Screenshots/PDB%20Created.png)
 
 **Oracle Enterprise Manager**
-> _📸 Screenshot: SQL Developer or OEM table creation, DB name confirmation_
+![OEM](/Screenshots/OEM.png)
 
 ---
 
